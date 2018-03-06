@@ -42,13 +42,11 @@ font-family: 'Roboto', sans-serif;
       font-weight: 300;
     }
       
-    p.first {
-      margin-top:15vh;
-    }
+  
 
     h4 {
       margin-top: 0;
-      margin-bottom: 1.6rem;
+      margin-bottom: 5vh;
       
       line-height: 1.2; 
       font-weight: 900;
@@ -58,7 +56,7 @@ font-family: 'Roboto', sans-serif;
     }
 
     h4.title {
-      font-size: 5rem;
+      font-size: 11vw;
     }
 
     h4.author {
@@ -79,11 +77,11 @@ font-family: 'Roboto', sans-serif;
     }
 
     .dropCap {
-      font-size: 5.7em;
+      font-size: 90px;
       font-weight: 900;
      font-family: 'Roboto', sans-serif;
      float: left;
-     line-height: 81px;
+     line-height: 80px;
   padding-right: 8px;
   padding-left: 3px;
     }
@@ -107,32 +105,31 @@ font-family: 'Roboto', sans-serif;
       opacity: 1.0;
       transition-timing-function: ease-out;
     }
-  @media (min-width: 200px) {
+  @media (max-width: 414px) {
       .column {
       width: 90%;
     }
+
     h4.title {
-      font-size: 5.4rem;
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
+   
     }
     body {
-       margin-top: 10vh;
+       margin-top: 9vh;
        margin-bottom: 10vh;
     }
     p.first {
-      margin-top:8vh;
+      margin-top:5vh;
     }
     }
     /* Larger than mobile */
-    @media (min-width: 400px) {
+    @media (min-width: 415px) {
       .column {
       width: 90%;
     }
-    h4.title {
-      font-size: 5.4rem;
-    }
+   
     body {
-       margin-top: 10vh;
+       margin-top: 8vh;
        margin-bottom: 10vh;
     }
     }
@@ -142,16 +139,36 @@ font-family: 'Roboto', sans-serif;
       .column {
       width: 85%;
     }
-    h4.title {
-      font-size: 5.3rem;
-    }
+    
     }
 
     /* Larger than tablet */
-    @media (min-width: 750px) {}
+    @media (min-width: 750px) {
+      .rwd-break { display: none; }
+      h4.title {
+      font-size: 8vw;
+    }
+    p.first {
+      margin-top:5vh;
+    }
+    }
 
     /* Larger than desktop */
-    @media (min-width: 1000px) {}
+    @media (min-width: 768px) {
+      body {
+         margin-top: 17vh;
+      margin-bottom: 20vh;
+      }
+      h4.title {
+      font-size: 4vw;
+      margin-bottom: 
+    }
+    .column {
+      width: 65%;
+    }
+    h4 {
+      margin-bottom: 3vh;
+    }
 
     /* Larger than Desktop HD */
     @media (min-width: 1200px) {}
@@ -162,8 +179,8 @@ font-family: 'Roboto', sans-serif;
 
   <div class="wrapper">
     <div class="column">
-        <h4 class="title">What We Talk About <br> When We Talk About Type</h4>
-        <h4 class="author">Article by <span class="bold">Ellen Shapiro</span> - August 04, 2015</h4>
+        <h4 class="title">What We <br class="rwd-break" />Talk About <br> When We Talk <br/>About Type</h4>
+        <h4 class="author">Article by <span class="bold">Ellen Shapiro</span> -<br class="rwd-break" />August 04, 2015</h4>
         <p class="first"><span class="dropCap">W</span>hen <a href="https://www.pentagram.com">Pentagram</a> partner Abbott Miller spoke at the <a href="http://2018.typographics.com/">TypoGraphics</a> conference at Cooper Union last month, he said, “When you start talking about type, the meeting is nearly over.” That got a big laugh. Mainly because it rings so true. Although public awareness of <a href="https://www.mydesignshop.com/">typography</a> is growing, most people don’t know from anything but Arial, Times, and Comic Sans. And their eyes glaze over when the conversation turns to, say, the more robust proportions and serif shapes of a transitional versus a humanist typeface. Thus Miller’s mockup of a proposed bricks-and-mortar font shop to be located in malls everywhere between Brookstone and Forever 21.
 
 <p>But then there are the rare and valuable clients, Miller suggested, who, like us designers, are more inside than outside the world of type. Often, they’re cultural institutions with interesting typographic histories or opportunities ripe to be uncovered by identity designers and brought to the forefront. Or there might be something about the institution’s collections that suggests a particular, or peculiar, typographic approach that can lead to fruitful conversations about type, conversations that inspire rather than bore the client.
